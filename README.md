@@ -46,10 +46,12 @@ To create an instance from a native value in case of a reverse transformation
 $myEnum = MyEnum::createByValue($myValue);
 ```
 
-To use a cache per Enum abstractions to save memory and to speed up accessing constants and serving Enum instances. 
+To use a cache per Enum abstraction to save memory and to speed up accessing constants and serving Enum instances. 
 
 ## Example implementation
-Take a look at src/Mock/FruitEnum.php
+Take a look at src/Mock/SimpleFruitEnum.php for a simple implementation.
+
+Take a look at src/Mock/FruitEnum.php to see how to extend the functionality.
 
 ## Installing
 
