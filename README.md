@@ -7,7 +7,7 @@ function(MyEnumInterface $myEnum)
 }
 ```
 
-To always work with instances rather strings
+To always work with instances rather than strings
 ```
 $myEnum = MyEnum::MY_CONSTANT();
 
