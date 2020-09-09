@@ -2,7 +2,7 @@
 ## Goals
 To handle Enum arguments
 ```
-function(MyEnum $myEnum)
+function(MyEnumInterface $myEnum)
 {
 }
 ```
